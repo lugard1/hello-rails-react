@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+# db/seeds.rb
+greetings = [
+  "Hello, world!",
+  "Greetings from Rails!",
+  "Welcome to the app.",
+  "Hi there!",
+  "Hola, amigos!"
+  "Hello, this is Lugard's Rails + React app."
+]
+
+greetings.each do |greeting|
+  Greeting.create(message: greeting)  # Use 'Greeting' instead of 'Message'
+end
