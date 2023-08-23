@@ -3,7 +3,7 @@ greetings = [
   "Greetings from Rails!",
   "Welcome to the app.",
   "Hi there!",
-  "Hola, amigos!"
+  "Hola, amigos!",
   "Hello, this is Lugard's Rails + React app."
 ]
 
